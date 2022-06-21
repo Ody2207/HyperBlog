@@ -4,16 +4,38 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#cabecera {
+/* header */
+
+.cabecera {
+    display: flex;
     background-color: rgb(73, 26, 117);
     color: #fff;
     margin: 0;
     padding: 0.5em;
 }
 
+.cabecera img {
+    width: 100px;
+}
+
+.cabecera p {
+    padding: 0 20px;
+}
+
+.cabecera span {
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.cabecera-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .container {
-    width: 70%;
-    padding: 1em;
+    width: 100%;
+    padding: 1px;
     text-align: left;
     border: 1px solid rgb(0, 0, 0);     
 }
